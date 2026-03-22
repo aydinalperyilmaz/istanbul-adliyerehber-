@@ -1,0 +1,9 @@
+{
+  "name": "istanbul-adliye-rehber",
+  "version": "1.0.0",
+  "description": "İstanbul Adalet Sarayı Dijital Yol Rehberi",
+  "scripts": {
+    "build": "echo 'Static site - no build needed' && cp -r public/* dist/",
+    "dev": "npx serve public"
+  }
+}
